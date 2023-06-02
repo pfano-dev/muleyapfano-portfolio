@@ -1,0 +1,13 @@
+.experience {
+  padding: 1rem;
+  margin: 3rem;
+}
+.experience h1 {
+  text-align: center;
+}
+.experienceCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}

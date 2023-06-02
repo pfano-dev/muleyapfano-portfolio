@@ -1,0 +1,91 @@
+.skills {
+  padding: 0.5rem;
+}
+.skills h1 {
+  text-align: center;
+  margin: 3rem;
+}
+.skillsSection {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 5rem;
+}
+
+.leftSection {
+  display: grid;
+  grid-column: span 7 / span 7;
+}
+.rightSection {
+  display: grid;
+  grid-column: span 5 / span 5;
+}
+.spSkills {
+  width: 60%;
+  padding: 1rem;
+}
+.spSkills h2 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+.spSkills p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 12px;
+}
+.offer h2 {
+  margin-left: 1rem;
+  font-size: 20px;
+}
+.offerCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  background-color: #259170;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.info {
+  margin-left: 1rem;
+  color: white;
+}
+.info h3 {
+  font-size: 1rem;
+}
+.info p {
+  font-size: 0.8rem;
+}
+
+.levelBar {
+  background-color: #40b08f;
+  height: 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.rightSection {
+  display: grid;
+  align-items: center;
+}
+.skillsLevel {
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+.skillsLevel h3 {
+  margin-bottom: 1rem;
+}
+
+.level {
+  margin: 0.5rem 0;
+}
+.level h4 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.percent {
+  display: flex;
+  align-items: center;
+}

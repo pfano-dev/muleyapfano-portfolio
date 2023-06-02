@@ -1,0 +1,137 @@
+.scrollSection {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.line {
+  height: 6rem;
+  background-color: #38c198;
+  width: 2px;
+}
+.scrollDown {
+  transform: rotate(270deg);
+  width: 10rem;
+  transform-origin: -1% 50%;
+  position: absolute;
+  top: 11.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.scrollDown:hover {
+  color: #38c198;
+}
+
+.scrollSpace {
+  height: 7rem;
+}
+
+.homeInfo {
+  margin-top: 4rem;
+}
+.homeInfo h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.homeInfo h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.contactIcon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.contactIcon p {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.04rem;
+}
+
+.icon {
+  color: #38c198;
+  font-size: 1.1rem;
+}
+
+.socialIcon {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3rem;
+  margin-top: 2rem;
+}
+
+.image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: center;
+}
+
+.btnDiv {
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+
+.btn {
+  padding: 0.2rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.1rem #38c198 solid;
+  font-weight: 900;
+  margin: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: #06966b;
+}
+
+.cvBtn {
+  color: #38c198;
+  background-color: #fff;
+}
+.cvBtn {
+  color: #38c198;
+  background-color: #fff;
+}
+.talkBtn {
+  color: #fff;
+  background-color: #38c198;
+}
+
+.aboutDiv {
+  max-width: 50%;
+  margin-left: 5rem;
+}
+.aboutDiv h2 {
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.languageDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 30vw;
+  align-self: center;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.languageBox {
+  display: flex;
+  border: 0.2rem #38c198 solid;
+  width: 5rem;
+  margin-top: 0.5rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}

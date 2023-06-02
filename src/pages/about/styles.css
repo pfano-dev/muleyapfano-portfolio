@@ -1,0 +1,104 @@
+.about {
+  margin-top: 5rem;
+}
+.about h1 {
+  text-align: center;
+}
+.mainSection {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  margin-top: 1rem;
+  gap: 15%;
+}
+.imgSection {
+  margin: 5rem;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: linear-gradient(45deg, transparent, #38c198, transparent);
+  display: grid;
+  place-items: center;
+  border-radius: 2rem;
+}
+
+.imgframe {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  aspect-ratio: 1/1;
+  transition: var(--transition);
+}
+.imgframe:hover {
+  transform: rotate(0deg);
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.allcard {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem 0;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+.card {
+  background-color: #38c198;
+  height: 8rem;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.card h6 {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.card p {
+  font-size: 0.6rem;
+  color: #eee;
+}
+.cardSection {
+  display: block;
+}
+.objective {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 1rem;
+  padding-right: 2rem;
+}
+.aboutBtn {
+  display: flex;
+  width: "100%";
+  justify-content: center;
+}
+
+.textDiv h3 {
+  text-align: center;
+}
+
+.education h3 {
+  padding-left: 1rem;
+}
+.education p {
+  font-weight: 400;
+  margin-top: 1;
+  font-size: 12px;
+}
+
+.first {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.first .p1 {
+  font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.experienceBox {
+  background-color: #40b08f;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+}
+.experienceBox h2 {
+  margin: 0.5rem;
+}
+.techs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.3rem;
+  margin-top: 0.5rem;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconText {
+  margin-left: 1rem;
+}
+.iconText .years {
+  font-size: 12px;
+  color: #c1c1c1;
+}
