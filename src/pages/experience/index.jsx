@@ -13,6 +13,7 @@ function Experience() {
         <ExperienceCard />
       </div>
       <div className="workingExperience">
+        <h2 className="">Working Experiences</h2>
         <WorkingExperience />
       </div>
     </div>

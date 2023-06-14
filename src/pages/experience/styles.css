@@ -11,3 +11,30 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+.workingExperience {
+  text-align: center;
+  margin-top: 2rem;
+}
+.workingExperience h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.exApp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  height: 200px;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+td {
+  text-align: center;
+  background-color: #e5e5e5;
+}
