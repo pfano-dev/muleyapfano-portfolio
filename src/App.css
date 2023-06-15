@@ -41,3 +41,19 @@
   top: 5rem;
   right: -7rem;
 }
+
+.small2 {
+  height: 18rem;
+  width: 18rem;
+  top: 200rem;
+  right: -12rem;
+}
+
+.big1 {
+  height: 25rem;
+  width: 25rem;
+  top: 210rem;
+  right: -12rem;
+  background-color: white;
+  border: 0.3rem #38c198 solid;
+}

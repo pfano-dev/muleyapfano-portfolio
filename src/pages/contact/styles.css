@@ -1,0 +1,96 @@
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactPage h1 {
+  text-align: center;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+.left {
+  display: grid;
+  grid-column: span 5 / span 5;
+}
+.right {
+  display: grid;
+  grid-column: span 7 / span 7;
+
+  padding: 0;
+}
+.cardContact {
+  background-color: #259170;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  justify-self: center;
+}
+.icon {
+  align-self: center;
+}
+.cardContact p {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+.title {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.cardContact .send {
+  color: #aaa9a9;
+  cursor: pointer;
+}
+.cardContact .send:hover {
+  color: #c8c6c6;
+  cursor: pointer;
+}
+
+.innerRight {
+  margin: 0;
+}
+.input {
+  height: 12%;
+  margin: 0.8rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: 1px #259170 solid;
+  outline: none;
+  width: 70%;
+}
+.textArea {
+  height: 35%;
+  margin: 0.8rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: 1px #259170 solid;
+  outline: none;
+  width: 70%;
+}
+
+.msg {
+  display: block;
+  color: #fff;
+  background-color: #259170;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+.msg:hover {
+  color: white;
+  background-color: #177456;
+}
