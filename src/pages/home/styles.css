@@ -128,10 +128,30 @@
 
 .languageBox {
   display: flex;
-  border: 0.2rem #38c198 solid;
+  background-color: #38c198;
+  color: #fff;
+  border-radius: 2px;
   width: 5rem;
   margin-top: 0.5rem;
   height: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

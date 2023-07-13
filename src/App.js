@@ -5,24 +5,23 @@ import About from "./pages/about";
 import Skills from "./pages/Skills";
 import Experience from "./pages/experience";
 import Contact from "./pages/contact";
+import Project from "./pages/projects";
 
 function App() {
   return (
-    <main className="main">
-      <div className="circle small-1"></div>
-      <div className="circle small"></div>
-      <div className="circle big"></div>
-      <div className="circle small2"></div>
-      <div className="circle big1"></div>
-      <div className="circle big-1"></div>
-
+    <div className="main">
       <NavBar />
       <Home />
       <About />
       <Skills />
       <Experience />
+      <Project />
       <Contact />
-    </main>
+      <div className="circle small-1"></div>
+      <div className="circle small"></div>
+      <div className="circle big"></div>
+      <div className="circle big-1"></div>
+    </div>
   );
 }
 

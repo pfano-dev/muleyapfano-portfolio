@@ -7,8 +7,9 @@ nav {
   position: fixed;
   width: 100%;
   height: 3.5rem;
-  z-index: 10;
-  background-color: #fff;
+  background: rgba(19, 91, 62, 0.2);
+  backdrop-filter: blur(15px);
+  z-index: 2;
 }
 .navList {
   display: flex;
@@ -25,7 +26,10 @@ nav {
   text-decoration: none;
   list-style-type: none;
   font-weight: 500;
-  color: black;
+  color: white;
+}
+.active {
+  color: #38c198;
 }
 .navList li a:hover {
   color: #38c198;

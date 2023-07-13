@@ -5,7 +5,7 @@ import { languages } from "../../assets/data/languages";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h1> Skills</h1>
       <div className="skillsSection">
         <div className="leftSection">
@@ -21,7 +21,7 @@ function Skills() {
             <h2>What I Offer</h2>
             <div className="offerCard">
               {services.map((service) => (
-                <div className="cards">
+                <div className="cards" key={service.service}>
                   <service.icon size={40} color="#fff" />
                   <div className="info">
                     <h3>{service.service}</h3>
@@ -36,7 +36,7 @@ function Skills() {
           <div className="skillsLevel">
             <h3>Programming langueges Skils</h3>
             {languages.map((language) => (
-              <div className="level">
+              <div className="level" key={language.language}>
                 <h4>{language.language} </h4>
                 <div className="percent">
                   <p className="levelBar" style={{ width: language.level }}></p>

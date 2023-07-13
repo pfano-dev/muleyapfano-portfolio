@@ -1,0 +1,13 @@
+.projects {
+  padding: 1rem;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.mainProject h1 {
+  text-align: center;
+}

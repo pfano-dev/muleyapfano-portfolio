@@ -8,10 +8,9 @@ import Me from "../../assets/images/profile.jpeg";
 import { languages } from "../../assets/data/languages";
 
 function Home() {
-  console.log(languages);
   return (
     <main style={{ padding: "0 5rem" }}>
-      <section className="scrollSection">
+      <section className="scrollSection " id="home">
         <div>
           <div className="line"></div>
           <div className="scrollSpace">
@@ -63,7 +62,7 @@ function Home() {
           </p>
           <div className="languageDiv">
             {languages.map((language) => (
-              <div className="languageBox">
+              <div className="languageBox" key={language.language}>
                 <p>{language.language} </p>
               </div>
             ))}
