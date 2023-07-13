@@ -5,7 +5,6 @@
 }
 
 .main {
-  position: relative;
   overflow: hidden;
 }
 .circle {
@@ -19,14 +18,15 @@
   width: 25rem;
   top: 30rem;
   left: -12rem;
-  background-color: white;
+  background: rgba(212, 234, 245, 0.2);
   border: 0.3rem #38c198 solid;
 }
+
 .big-1 {
-  height: 25rem;
-  width: 25rem;
-  top: 80rem;
-  right: -12rem;
+  height: 5rem;
+  width: 5rem;
+  top: 0rem;
+  right: 3rem;
 }
 
 .small {
@@ -36,24 +36,8 @@
   left: -12rem;
 }
 .small-1 {
-  height: 10rem;
-  width: 10rem;
-  top: 5rem;
-  right: -7rem;
-}
-
-.small2 {
-  height: 18rem;
-  width: 18rem;
-  top: 200rem;
-  right: -12rem;
-}
-
-.big1 {
-  height: 25rem;
-  width: 25rem;
-  top: 210rem;
-  right: -12rem;
-  background-color: white;
-  border: 0.3rem #38c198 solid;
+  height: 5rem;
+  width: 5rem;
+  top: 0rem;
+  left: 12rem;
 }

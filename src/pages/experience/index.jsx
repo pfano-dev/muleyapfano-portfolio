@@ -5,7 +5,7 @@ import WorkingExperience from "../../components/workingExperience/workingExperie
 
 function Experience() {
   return (
-    <div className="experience">
+    <div className="experience" id="experiences">
       <h1>Experiences</h1>
       <div className="experienceCards">
         <ExperienceCard />
