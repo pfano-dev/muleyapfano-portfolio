@@ -103,6 +103,12 @@
   color: #38c198;
   background-color: #fff;
 }
+.abtn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .talkBtn {
   color: #fff;
   background-color: #38c198;
@@ -137,21 +143,78 @@
   justify-content: center;
   align-items: center;
 }
+.homeMain {
+  padding: 0 5rem;
+}
 
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
-  }
 }
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
+  .scroll {
+    display: none;
+  }
+  .scrollSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homeMain {
+    padding: 0;
+  }
+  .homeInfo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgDiv {
+    margin: 0 auto;
+  }
+  .contactIcon p {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+  }
+  .socialIcon {
+    gap: 2rem;
+  }
+  .aboutSection {
+    flex-direction: column;
   }
 
-  section > h2 {
-    margin-bottom: 2rem;
+  .btnDiv {
+    margin: 0;
+  }
+
+  .aboutDiv {
+    max-width: 100%;
+    margin: 0rem;
+  }
+
+  .aboutDiv h2 {
+    max-width: 100%;
+    margin: 0rem;
+  }
+  .aboutDiv p {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .languageDiv {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .languageBox {
+    width: 6rem;
+    height: 2.5rem;
   }
 }

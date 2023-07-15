@@ -11,12 +11,22 @@ nav {
   backdrop-filter: blur(15px);
   z-index: 2;
 }
+.DrawerToggle {
+  width: 34px;
+  margin-top: 1rem;
+}
+.toggleNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
 .navList {
   display: flex;
   justify-content: space-around;
   margin-left: 20rem;
-  margin-right: 5rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  width: 70%;
 }
 
 .navList li {
@@ -33,4 +43,73 @@ nav {
 }
 .navList li a:hover {
   color: #38c198;
+}
+
+.toggle-button {
+  height: 24px;
+  width: 34px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  margin-top: 1rem;
+}
+
+.toggle-button_line {
+  height: 2px;
+  width: 34px;
+  background-color: #fff;
+}
+
+.side-drawer {
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  z-index: 10;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-out;
+}
+.side-drawer.open {
+  transform: translateX(0);
+}
+
+.inSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inSide li {
+  margin-top: 1rem;
+  list-style-type: none;
+}
+.inSide li a {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 500;
+}
+.inSide li a:hover {
+  color: #38c198;
+}
+
+/* MEDIA QUERIES(MEDIUM DEVICES */
+
+@media screen and (max-width: 900px) {
+  .navList {
+    display: none;
+  }
+}
+@media screen and (min-width: 901px) {
+  .remove {
+    display: none;
+  }
 }

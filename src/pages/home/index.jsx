@@ -9,9 +9,9 @@ import { languages } from "../../assets/data/languages";
 
 function Home() {
   return (
-    <main style={{ padding: "0 5rem" }}>
+    <main className="homeMain">
       <section className="scrollSection " id="home">
-        <div>
+        <div className="scroll">
           <div className="line"></div>
           <div className="scrollSpace">
             <p className="scrollDown">scroll down</p>
@@ -24,32 +24,36 @@ function Home() {
           <h4>Sofware Engineer</h4>
 
           <div className="contactIcon">
-            <BsFillTelephoneFill className="icon" />
+            <BsFillTelephoneFill size={25} color="#38c198" />
             <p>079 649 5495</p>
           </div>
           <div className="contactIcon">
-            <MdEmail className="icon" />
+            <MdEmail size={25} color="#38c198" />
             <p>Muleyapfano12345@gmail.com</p>
           </div>
           <div className="contactIcon">
-            <MdLocationPin className="icon" />
+            <MdLocationPin size={30} color="#38c198" />
             <p>mamelodi west, pretoria, Gauteng 0122</p>
           </div>
           <div className="socialIcon">
-            <FaFacebookF className="icon" />
-            <FaLinkedinIn className="icon" />
-            <BsWhatsapp className="icon" />
-            <BsGithub className="icon" />
+            <FaFacebookF className="icon" color="#38c198" />
+            <FaLinkedinIn className="icon" color="#38c198" />
+            <BsWhatsapp className="icon" color="#38c198" />
+            <BsGithub className="icon" color="#38c198" />
           </div>
         </div>
 
-        <div>
+        <div className="imgDiv">
           <img src={Me} alt="muleya pfano" className="image" />
         </div>
       </section>
       <section className="aboutSection">
         <div className="btnDiv">
-          <button className="btn cvBtn">Download CV</button>
+          <a className="btn cvBtn abtn" href={Me} download>
+            {" "}
+            Download CV
+          </a>
+
           <button className="btn talkBtn">Let's Talk</button>
         </div>
         <div className="aboutDiv">

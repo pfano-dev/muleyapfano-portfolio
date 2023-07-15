@@ -104,3 +104,34 @@
 .first .p1 {
   font-weight: 700;
 }
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 600px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgSection {
+    margin: 1rem;
+    width: 70%;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+    border-radius: 2rem;
+  }
+  .allcard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  .textDiv {
+    text-align: center;
+  }
+  .education {
+    text-align: center;
+  }
+}
