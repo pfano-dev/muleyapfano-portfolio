@@ -6,11 +6,32 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/experience";
 import Contact from "./pages/contact";
 import Project from "./pages/projects";
+import SideDrawer from "./components/navbar/SideDrawer";
+import Backdrop from "./components/backdrop/Backdrop";
+import { useState } from "react";
 
 function App() {
+  const [sideDrawer, setSideDrawer] = useState(false);
+
+  const DrawerHandler = () => {
+    setSideDrawer((prevState) => {
+      return { SideDrawerOpen: !prevState.SideDrawerOpen };
+    });
+  };
+
+  const BackdropHandler = () => {
+    setSideDrawer(false);
+  };
+
   return (
     <div className="main">
-      <NavBar />
+      {sideDrawer ? <Backdrop click={BackdropHandler} /> : null}
+
+      <NavBar DrawerHandler={DrawerHandler} />
+      {sideDrawer ? (
+        <SideDrawer show={sideDrawer} click={BackdropHandler} />
+      ) : null}
+
       <Home />
       <About />
       <Skills />

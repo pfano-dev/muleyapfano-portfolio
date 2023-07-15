@@ -89,3 +89,49 @@
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 600px) {
+  .skills {
+    padding: 0rem;
+  }
+  .skills h1 {
+    margin: 1rem;
+  }
+  .skillsSection {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+  }
+  .leftSection {
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+  }
+  .spSkills {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .spSkills h2 {
+    margin-top: 0rem;
+  }
+
+  .offer h2 {
+    text-align: center;
+  }
+  .offerCard {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .rightSection {
+    margin-top: 0;
+  }
+  .skillsLevel {
+    margin: 0 auto;
+  }
+}
