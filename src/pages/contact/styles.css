@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: center;
 }
+* {
+  box-sizing: inherit;
+}
 .contactPage h1 {
   text-align: center;
 }
@@ -93,4 +96,52 @@
 .msg:hover {
   color: white;
   background-color: #177456;
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  left {
+    display: grid;
+    grid-column: span 12 / span 12;
+  }
+  .right {
+    display: grid;
+    grid-column: span 12 / span 12;
+    padding: 0;
+    margin: 0;
+  }
+  .contactPage {
+    margin-bottom: 2rem;
+  }
+  .cardContact {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .innerRight {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+  .input {
+    width: 100%;
+    height: 3rem;
+    display: block;
+    margin: 1rem 0;
+  }
+  .textArea {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .msg {
+    width: 100%;
+    margin: 0;
+  }
 }
