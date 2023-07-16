@@ -37,12 +37,12 @@ function Contact() {
           </div>
         </div>
         <div className="right">
-          <div className="innerRight">
+          <form className="innerRight">
             <input className="input" type="text" placeholder="Your Full Name" />
             <input className="input" type="text" placeholder="Your Email" />
             <textarea className="textArea" placeholder="Your Message" />
             <button className="btn msg">send message</button>
-          </div>
+          </form>
         </div>
       </div>
     </div>

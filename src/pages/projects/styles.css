@@ -11,3 +11,14 @@
 .mainProject h1 {
   text-align: center;
 }
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 600px) {
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
