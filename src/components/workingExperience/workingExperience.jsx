@@ -13,7 +13,7 @@ function workingExperience() {
             <th>Tittle</th>
             <th>Position</th>
             <th>Location</th>
-            <th>Start -End</th>
+            <th>Start - End</th>
             <th>Duration</th>
           </tr>
           {data.map((val, key) => {
