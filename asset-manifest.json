@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/muleyapfano-portfolio/static/css/main.a733b745.css",
+    "main.js": "/muleyapfano-portfolio/static/js/main.bc570ea5.js",
+    "static/js/787.f10023f7.chunk.js": "/muleyapfano-portfolio/static/js/787.f10023f7.chunk.js",
+    "static/media/Netflix.png": "/muleyapfano-portfolio/static/media/Netflix.e14d0009fdad5983101f.png",
+    "static/media/youtubeClone.png": "/muleyapfano-portfolio/static/media/youtubeClone.9e8b97a1e15b2a5108f9.png",
+    "static/media/football.png": "/muleyapfano-portfolio/static/media/football.409553465dbdb2e6a19b.png",
+    "static/media/tweetme.jpg": "/muleyapfano-portfolio/static/media/tweetme.a896de5305af9e2e01a3.jpg",
+    "static/media/algoVisual.png": "/muleyapfano-portfolio/static/media/algoVisual.04ffb3ad86e13b4bee3a.png",
+    "static/media/portfolio.jpg": "/muleyapfano-portfolio/static/media/portfolio.a26458d3dd0fc4bb8b23.jpg",
+    "static/media/chatapp.jpg": "/muleyapfano-portfolio/static/media/chatapp.a82cb05839b8bdf8609d.jpg",
+    "static/media/blink.jpg": "/muleyapfano-portfolio/static/media/blink.01ec3f4fa4fadba218d6.jpg",
+    "static/media/about.jpg": "/muleyapfano-portfolio/static/media/about.394c4e8bf88b373b6b35.jpg",
+    "static/media/covid.jpg": "/muleyapfano-portfolio/static/media/covid.0449788c000dcd4cfaa2.jpg",
+    "static/media/dev.jpg": "/muleyapfano-portfolio/static/media/dev.87c2e69669e29e26d4e5.jpg",
+    "static/media/store.jpg": "/muleyapfano-portfolio/static/media/store.6c954f4c07d350dd4fd4.jpg",
+    "static/media/profile.jpeg": "/muleyapfano-portfolio/static/media/profile.519974ef0098af28f3b8.jpeg",
+    "static/media/color.jpg": "/muleyapfano-portfolio/static/media/color.870de8517be36fa4127c.jpg",
+    "static/media/newYear.jpg": "/muleyapfano-portfolio/static/media/newYear.05b605b8bdbd0ab7df7b.jpg",
+    "static/media/codepen.png": "/muleyapfano-portfolio/static/media/codepen.c5a22b7c4ba7afa80371.png",
+    "index.html": "/muleyapfano-portfolio/index.html",
+    "main.a733b745.css.map": "/muleyapfano-portfolio/static/css/main.a733b745.css.map",
+    "main.bc570ea5.js.map": "/muleyapfano-portfolio/static/js/main.bc570ea5.js.map",
+    "787.f10023f7.chunk.js.map": "/muleyapfano-portfolio/static/js/787.f10023f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a733b745.css",
+    "static/js/main.bc570ea5.js"
+  ]
+}
