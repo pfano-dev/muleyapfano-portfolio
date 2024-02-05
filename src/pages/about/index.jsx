@@ -48,7 +48,15 @@ function About() {
               considering them as stepping stones towards achieving success.
             </p>
             <div className="aboutBtn">
-              <button className="btn talkBtn">Let's Talk</button>
+              <button className="btn talkBtn">
+                {" "}
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="#contact"
+                >
+                  Let's Talk
+                </a>
+              </button>
             </div>
           </div>
           <div className="education">

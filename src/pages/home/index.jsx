@@ -33,7 +33,7 @@ function Home() {
           </div>
           <div className="contactIcon">
             <MdLocationPin size={30} color="#38c198" />
-            <p>mamelodi west, pretoria, Gauteng 0122</p>
+            <p>358 visagie street, pretoria central, Gauteng 0002</p>
           </div>
           <div className="socialIcon">
             <FaFacebookF className="icon" color="#38c198" />
@@ -54,7 +54,15 @@ function Home() {
             Download CV
           </a>
 
-          <button className="btn talkBtn">Let's Talk</button>
+          <button className="btn talkBtn">
+            {" "}
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="#contact"
+            >
+              Let's Talk
+            </a>
+          </button>
         </div>
         <div className="aboutDiv">
           <h2>About Me</h2>

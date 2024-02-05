@@ -4,16 +4,16 @@ export const projects = [
     description:
       "This app shows a statistical view about corona virus over the world",
     image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
     name: "Algorithm Visualizer",
     image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["react"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
@@ -23,8 +23,8 @@ export const projects = [
   {
     name: "Realtime Chat App",
     image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["node", "react"],
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
@@ -34,8 +34,8 @@ export const projects = [
   {
     name: "Tweeter Clone",
     image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["django", "react"],
     description:
       "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
@@ -45,8 +45,8 @@ export const projects = [
   {
     name: "Color Classification using tf.js",
     image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["express"],
     description:
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
@@ -56,8 +56,8 @@ export const projects = [
   {
     name: "Football App",
     image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    deployed_url: "#",
+    github_url: "https://github.com/pfano-dev",
     category: ["react"],
     description:
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
