@@ -57,6 +57,7 @@
 .cardContact .send {
   color: #aaa9a9;
   cursor: pointer;
+  text-decoration: none;
 }
 .cardContact .send:hover {
   color: #c8c6c6;
